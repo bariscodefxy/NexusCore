@@ -1,9 +1,9 @@
 <?php
 
-use PHPCraft\Core\World\World;
-use PHPCraft\API\BlockProvider;
-use PHPCraft\API\Coordinates3D;
-use PHPCraft\API\Coordinates2D;
+use NexusCore\Core\World\World;
+use NexusCore\API\BlockProvider;
+use NexusCore\API\Coordinates3D;
+use NexusCore\API\Coordinates2D;
 use PHPUnit\Framework\TestCase;
 
 class WorldTest extends TestCase {

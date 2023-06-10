@@ -1,9 +1,9 @@
 <?php
 
-use PHPCraft\Core\TerrainGen\FlatlandGenerator;
-use PHPCraft\Core\World\Chunk;
-use PHPCraft\API\Coordinates3D;
-use PHPCraft\API\Coordinates2D;
+use NexusCore\Core\TerrainGen\FlatlandGenerator;
+use NexusCore\Core\World\Chunk;
+use NexusCore\API\Coordinates3D;
+use NexusCore\API\Coordinates2D;
 use PHPUnit\Framework\TestCase;
 
 class FlatlandGeneratorTest extends TestCase {

@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 require "vendor/autoload.php";
-use PHPCraft\Core\Networking\MultiplayerServer;
+use NexusCore\Core\Networking\MultiplayerServer;
 
 error_reporting(E_ALL);
 date_default_timezone_set('UTC');

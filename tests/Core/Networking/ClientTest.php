@@ -1,8 +1,8 @@
 <?php
 
 use Evenement\EventEmitter;
-use PHPCraft\Core\Networking\MultiplayerServer;
-use PHPCraft\Core\Networking\Client;
+use NexusCore\Core\Networking\MultiplayerServer;
+use NexusCore\Core\Networking\Client;
 use PHPUnit\Framework\TestCase;
 
 /*

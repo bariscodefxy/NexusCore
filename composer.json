@@ -1,25 +1,32 @@
 {
-	"name": "akemin_dayo/phpcraft",
-	"description": "An open-source Minecraft: Java Edition server implementation, written in PHP.",
+	"name": "bariscodefx/nexuscore",
+	"description": "PHPCraft fork that aims to be good server software that can race with other java server softwares.",
 	"type": "project",
-	"homepage": "https://github.com/akemin-dayo/PHPCraft",
+	"homepage": "https://github.com/bariscodefxy/NexusCore",
 	"readme": "README.md",
 	"license": "MIT",
 	"authors": [
 		{
+			"name": "bariscodefx",
+			"email": "bariscodefx@protonmail.com",
+			"homepage": "http://baris.root.sx/",
+			"role": "Main Developer"
+		},
+		{
 			"name": "Andrew Vy",
-			"email": "andrew@andrewvy.com"
+			"email": "andrew@andrewvy.com",
+			"role": "Contributor"
 		},
 		{
 			"name": "Karen/あけみ",
 			"email": "karen@akemi.ai",
             "homepage": "https://akemi.ai/",
-            "role": "Developer"
+            "role": "Contributor"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/akemin-dayo/PHPCraft/issues",
-		"source": "https://github.com/akemin-dayo/PHPCraft"
+		"issues": "https://github.com/bariscodefxy/NexusCore/issues",
+		"source": "https://github.com/bariscodefxy/NexusCore"
 	},
 	"require": {
 		"monolog/monolog": "^2.3",
@@ -33,7 +40,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"PHPCraft\\": "src/PHPCraft/"
+			"NexusCore\\": "src/NexusCore/"
 		}
 	}
 }
